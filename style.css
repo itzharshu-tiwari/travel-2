@@ -1,0 +1,370 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    border: border-box;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* nav option main div*/
+
+ /* TOP BLUE AREA FOR THE NAV-SECTION  */
+
+.navbar {
+    background-color: #002642;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    
+}
+
+/* LOGO - TOP LEFT CORNER  */
+
+#logo-txt {
+    display: inline-block;
+    color: aqua;
+
+}
+
+
+.nav-opt a {
+    margin-left: 4em;
+    text-decoration: none;
+
+}
+
+/* BUTTON - SIGN -IN , UP */
+
+#in {
+    background-color:dodgerblue;
+    padding: 9px;
+    border-radius: 1rem;
+    color:aliceblue;
+    font-weight: 900;
+    margin-left: 43rem;
+    border: solid white;
+    cursor: pointer;
+    transition: 1s;
+}
+
+/* HERO -SECTION VIDEO   */
+
+.box-vid{
+    height: 25rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#head-img{
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    z-index: -1; 
+    object-fit: cover;
+
+
+}
+
+    
+video{
+   position: absolute;
+   z-index: -1; 
+   width: 100%;
+   height: 80%;
+   object-fit: cover;
+}
+
+/*HERO -SECTION  */
+
+.hero-cont{
+    height: 10rem; 
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 10rem;
+    
+}
+    
+.search-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+    
+
+#input-search{
+    height: 4rem;
+    width: 40rem;
+    color:black;
+    font-size: larger;
+    font-weight: 300;
+    background-color:rgb(255, 254, 254);
+    outline: none;
+    border:solid black;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    text-align: center;
+}
+
+    
+#search-icon{
+    background-color:rgb(34, 111, 206);
+    border-color: black;
+    border-radius:0.5 ;
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 15px;
+    border:solid black;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+   
+}
+
+
+.quote-hero{
+    color:rgb(17, 0, 254);
+    text-align: center;
+    font-size:x-large;
+    font-weight: 900;
+    font-family :cursive;
+}
+    
+/* MAIN - CONTAINT - AREA*/
+
+/* PLACE-AREA */
+ 
+.place-area{
+    height: 30rem;
+    background-color: whitesmoke;
+
+}
+
+#place-txt{
+    color:white;
+    background-color: rgb(66, 54, 54);
+    margin-top: 1rem;
+    
+}
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+/*main boxes content*/
+
+.place-containt {
+    height: 28rem;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 1 8px 20px blue ;
+}
+
+.place-cont-box{
+    background-color: white;
+    height: 22rem;
+    width: 18rem;
+    border-top-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    
+}
+
+.boxes {
+    height: 20rem;
+    width: 15rem;
+    border-width: 4px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+
+/* img-box- content*/
+
+
+.for-mo {
+    color:red;
+    background-color:rgba(249, 249, 249, 0.543);
+    padding:4px;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    font-size: large;
+    font-weight: 800;
+}
+    
+#box-k-img {
+    background-image: url(my.img/summer-vec.jpg);
+    background-size: cover;
+        
+}
+
+#box-kas-img {
+    background-image: url(my.img/happy\ winter.gif);
+    background-size: cover;
+
+}
+
+#box-assam-img {
+    background-image: url(my.img/spring.jpg);
+    background-size: cover;
+
+}
+
+#box-var-img {
+    background-image: url(my.img/water-h.JPG);
+    background-size: cover;
+
+}
+
+
+/*  my hotels section */
+
+.Hotels-section {
+    height: 30rem;
+    background-color: white;
+}
+
+.H-head {
+    background-color: rgb(66, 54, 54);
+}
+
+
+#H-h2 {
+    color:white;
+    margin-top: 1rem;
+    display: inline;
+}
+
+#H-icon {
+    color: darkviolet;
+}
+
+/* Hotels --boxes-- content-- area  */
+
+#H-k-hotels{
+    background-image: url(my.img/taj.jpg);
+    background-size: cover;
+}
+
+#H-kas-hotels{
+    background-image: url(my.img/taj.jpg);
+    background-size: cover;
+}
+
+#Hotel-img{
+    background-image: url(my.img/taj.jpg);
+    background-size:cover;
+}
+
+#raj-img{
+    background : url(my.img/taj.jpg);
+    background-size: cover;
+    
+}
+
+.for-ho{
+    color:rgb(255, 0, 0);
+    background-color: rgba(240, 248, 255, 0.715);
+    padding: 3px;
+    text-decoration: none;
+    font-size: large;
+    font-weight: 800;
+}
+
+
+/* footer section */
+
+.foot{
+    height: 25rem;
+    background-color: rgb(27, 24, 24);
+    display: flex;
+    justify-content: space-around;
+}
+
+#foot-h1{
+    color: aqua;
+    margin-top: 5rem;
+
+}
+
+.foot-li{
+    text-decoration: none;
+
+}
+.foot-desti{
+    margin-top: 3rem;
+    text-decoration: none;
+}
+
+.travel-int{
+    margin-top: 3rem;
+
+}
+
+h4{
+    color: aqua;
+    
+}
+
+
+
+
+
+
+    
+    
+
+
+   
+
+
+
+
+
+
+
+
+   
+   
+  
+
+
+
+    
+    
+
+
+
+    
+
+   
+
+    
+
+    
+    
+    
+    
+
+
+

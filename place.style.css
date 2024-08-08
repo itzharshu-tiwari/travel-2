@@ -1,0 +1,22 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    border:border-box;
+}
+
+header{
+    height: 3rem;
+    width: 100%;
+    border:solid;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+ul{
+    display: flex;
+}
